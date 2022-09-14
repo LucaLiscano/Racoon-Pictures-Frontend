@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+   margin: 0%;
+   max-width: 1200px;
+   font-family: "Secular One", sans-serif;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.img-logo img {
+  height: 130px;
+  width: 150px;
+}
+
+header {
+  background-color: rgb(19, 15, 15);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about-us {
+  align-items: center;
+  text-align: center;
+}
+
+#about .info{
+
+	padding: 0%;
+}
+
+
