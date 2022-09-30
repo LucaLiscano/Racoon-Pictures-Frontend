@@ -82,7 +82,7 @@ nav {
   margin: auto;
 }
 
-#pictures {
+#myArts {
   color: white;
   padding: 120px;
   text-align: center;
@@ -100,10 +100,10 @@ nav {
   margin-bottom: 1.25rem;
 }
 
-#pictures h2 {
+#myArts h2 {
   font-size: 50px;
 }
-#pictures .container {
+#myArts .container {
   width: 800px;
   margin: auto;
 }
@@ -111,6 +111,12 @@ nav {
 footer {
   background-color: #9E8A72;
 }
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
 footer p {
   font-size: 15px;
   padding: 12px;
@@ -118,8 +124,26 @@ footer p {
 }
 
 footer .container {
-  height: 70px;
-  align-items: flex-end;
-  justify-content: right;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.menus{
   display: flex;
 }
+
+.ul{
+  margin: 40px;
+}
+
+.ul h2{
+  text-align: initial;
+}
+
+ul {
+  padding: 10px;
+  margin: 0%;
+  list-style: none;
+}
+
