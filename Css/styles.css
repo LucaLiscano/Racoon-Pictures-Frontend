@@ -57,6 +57,37 @@ nav {
   text-align: center;
 }
 
+#start{
+  padding: 200px;
+  margin-bottom: 1.25em;
+  color: white;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(https://live.staticflickr.com/8121/8859893857_6041955343_b.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+#start .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#start h1{
+  font-size: 3em;
+}
+
+#start img{
+  width: 400px;
+  height: 400px;
+}
+
 #about-us {
   color: white;
   padding: 120px;
@@ -106,6 +137,32 @@ nav {
 #myArts .container {
   width: 800px;
   margin: auto;
+}
+
+#arts{
+  padding: 150px;
+  background-color: aqua;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+#arts h2{
+  font-size: 3em;
+}
+
+
+.card{
+  color: white;
+  background-color: black;
+  padding: 100px;
+  border-radius: 10px;
+  align-items: inherit;
+}
+
+
+.art-container{
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
