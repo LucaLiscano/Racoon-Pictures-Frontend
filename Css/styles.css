@@ -28,7 +28,7 @@ h2 {
   margin: auto;
 }
 header {
-  background-color: #F2D9D0;
+  background-color: #f2d9d0;
   padding-left: 20px;
   padding-top: 12px;
   margin-bottom: 15px;
@@ -40,9 +40,13 @@ header .container {
   align-items: center;
 }
 
+<<<<<<< HEAD
 
 
 header img{
+=======
+header img {
+>>>>>>> 985ea1ce19b42f9ddcefcd0513917bff6653cd9e
   height: 80px;
 }
 
@@ -59,33 +63,33 @@ nav {
   text-align: center;
 }
 
-#start{
-  padding: 200px;
+#start {
+  padding: 130px;
   margin-bottom: 1.25em;
   color: white;
   background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
-  ),
-  url(https://live.staticflickr.com/8121/8859893857_6041955343_b.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://live.staticflickr.com/8121/8859893857_6041955343_b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-#start .container{
+#start .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
 }
 
-#start h1{
+#start h1 {
   font-size: 3em;
 }
 
-#start img{
+#start img {
   width: 400px;
   height: 400px;
 }
@@ -141,37 +145,88 @@ background-position: center center;
   margin: auto;
 }
 
-#arts{
+#arts {
   padding: 150px;
-  background-color: aqua;
+  background-color: rgb(39, 37, 37);
   margin-bottom: 1.25rem;
   text-align: center;
 }
 
-#arts h2{
+#arts h2 {
+  color: white;
   font-size: 3em;
 }
 
-
-.card{
+.card {
   color: white;
-  background-color: black;
   padding: 100px;
   border-radius: 10px;
-  align-items: inherit;
+  margin: 5px;
 }
 
+.card:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(/fotos/phoenix.jpg!Large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
-.art-container{
+.card:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(/fotos/La\ gran\ ola\ de\ Kanagawa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(/fotos/005c162f.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card:nth-child(4) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://www.cultura10.org/wp-content/uploads/2018/08/arte-japon%C3%A9s.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.art-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#artist .container {
+  padding: 150px;
+  margin-bottom: 1.25em;
 }
 
 footer {
-  background-color: #9E8A72;
+  background-color: #9e8a72;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: white;
 }
@@ -183,20 +238,20 @@ footer p {
 }
 
 footer .container {
- display: flex;
- flex-direction: column;
- justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.menus{
+.menus {
   display: flex;
 }
 
-.ul{
+.ul {
   margin: 40px;
 }
 
-.ul h2{
+.ul h2 {
   text-align: initial;
 }
 
@@ -205,4 +260,3 @@ ul {
   margin: 0%;
   list-style: none;
 }
-
