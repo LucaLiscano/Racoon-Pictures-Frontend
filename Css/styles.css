@@ -28,10 +28,15 @@ h2 {
   margin: auto;
 }
 header {
-  background-color: #f2d9d0;
+  background-color: #9e8a72;
   padding-left: 20px;
   padding-top: 12px;
-  margin-bottom: 15px;
+
+}
+
+header{
+  position: fixed;
+  width: 100%;
 }
 
 header .container {
@@ -40,13 +45,9 @@ header .container {
   align-items: center;
 }
 
-<<<<<<< HEAD
 
 
 header img{
-=======
-header img {
->>>>>>> 985ea1ce19b42f9ddcefcd0513917bff6653cd9e
   height: 80px;
 }
 
@@ -145,82 +146,9 @@ nav {
   margin: auto;
 }
 
-#arts {
-  padding: 150px;
-  background-color: rgb(39, 37, 37);
-  margin-bottom: 1.25rem;
-  text-align: center;
-}
 
-#arts h2 {
-  color: white;
-  font-size: 3em;
-}
 
-.card {
-  color: white;
-  padding: 100px;
-  border-radius: 10px;
-  margin: 5px;
-}
 
-.card:first-child {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(/fotos/phoenix.jpg!Large.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.card:nth-child(2) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(/fotos/La\ gran\ ola\ de\ Kanagawa.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.card:nth-child(3) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(/fotos/005c162f.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.card:nth-child(4) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(https://www.cultura10.org/wp-content/uploads/2018/08/arte-japon%C3%A9s.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.art-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-#artist .container {
-  padding: 150px;
-  margin-bottom: 1.25em;
-}
 
 footer {
   background-color: #9e8a72;
@@ -241,22 +169,4 @@ footer .container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.menus {
-  display: flex;
-}
-
-.ul {
-  margin: 40px;
-}
-
-.ul h2 {
-  text-align: initial;
-}
-
-ul {
-  padding: 10px;
-  margin: 0%;
-  list-style: none;
 }
