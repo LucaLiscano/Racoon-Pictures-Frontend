@@ -4,7 +4,7 @@
 body {
   font-family: "Secular One", sans-serif;
   margin: 0%;
-  background-color: rgb(12, 10, 10);
+  background-color: black;
 }
 
 html {
@@ -31,10 +31,9 @@ header {
   background-color: #9e8a72;
   padding-left: 20px;
   padding-top: 12px;
-
 }
 
-header{
+header {
   position: fixed;
   width: 100%;
 }
@@ -45,9 +44,7 @@ header .container {
   align-items: center;
 }
 
-
-
-header img{
+header img {
   height: 80px;
 }
 
@@ -146,67 +143,86 @@ nav {
   margin: auto;
 }
 
+#pictures {
+  padding: 0px 335px;
 
-
-.pictures-container{
+  margin-bottom: 1.25em;
+}
+.container-arts {
   width: 90%;
   height: 100%;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
 }
-
-.cover{
-  position: relative;
+.container-arts h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.cover {
   width: 90%;
   height: 50%;
 }
 
-.cover::before{
-  position: absolute;
+.cover::before {
   content: "";
   left: 0%;
-  top:0 ;
+  top: 0;
   z-index: 99;
   height: 100%;
   width: 150px;
-  background-image: linear-gradient(90deg, black, transparent);
 }
 
-.cover::after{
-  position: absolute;
+.cover::after {
   content: "";
   right: 0%;
-  top:0 ;
+  top: 0;
   z-index: 99;
   height: 100%;
   width: 150px;
-  background-image: linear-gradient(-90deg, black, transparent);
 }
-.scroll-images{
+.scroll-images {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: left;
   align-items: center;
-  overflow:auto ;
-  position: relative;
+  overflow: auto;
   scroll-behavior: smooth;
 }
 
-.child{
-  min-width: 600px;
+.child {
+  min-width: 552px;
   height: 450px;
-  margin: 1px 10px;
+  margin: 1px;
   cursor: pointer;
-  border: 1px solid white;
   overflow: hidden;
 }
 
-.child-img{
+.scroll-images::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.child-img {
+  padding: 0%;
+  border-radius: 50px;
   width: 100%;
   height: 100%;
 }
+
+.icon {
+  height: 60px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.icon {
+  align-items: center;
+  border: none;
+}
+
 footer {
   background-color: #9e8a72;
 }
