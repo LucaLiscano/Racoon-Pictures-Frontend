@@ -27,15 +27,24 @@ h2 {
   max-width: 1400px;
   margin: auto;
 }
+
+button {
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #9e8a72;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #957349;
+}
+
 header {
   background-color: #9e8a72;
   padding-left: 20px;
   padding-top: 12px;
-}
-
-header {
-  position: fixed;
-  width: 100%;
 }
 
 header .container {
@@ -142,19 +151,105 @@ nav {
   width: 800px;
   margin: auto;
 }
-#slider{
-  margin: 5%;
-  margin-left: 20%;
-  position: relative;
-  width: 1000px;
-  height: 600px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+
+#arts {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://fondosmil.com/fondo/11834.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 1.25em;
 }
 
-#slider ul{
-  position: relative;
-  
+#arts h1 {
+  font-size: 50px;
 }
+#slider {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+  margin-left: 13%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+
+#slider ul li {
+  position: relative;
+  height: 100%;
+  float: left;
+}
+
+#slider ul li img {
+  width: 900px;
+  height: 500px;
+}
+
+#slider #prev,
+#slider #next {
+  cursor: pointer;
+  width: 50px;
+  line-height: 50px;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+
+#slider #prev {
+  left: 10px;
+}
+
+#slider #next {
+  right: 10px;
+}
+
+#slider #prev:hover,
+#slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
+
+#artist {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+}
+.slides {
+  height: 500px;
+  width: auto;
+}
+.slide-artist {
+  height: 500px;
+  width: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer {
   background-color: #9e8a72;
 }
