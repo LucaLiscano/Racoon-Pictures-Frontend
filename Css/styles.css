@@ -180,7 +180,7 @@ nav {
   width: 900px;
   height: 600px;
   overflow: hidden;
-  margin-left: 13%;
+  margin: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -299,6 +299,8 @@ nav {
   background-repeat: no-repeat;
 }
 
+
+
 #artist img {
   height: 500px;
   width: 400px;
@@ -315,8 +317,14 @@ footer a {
 }
 
 footer p {
+  margin: 0%;
   font-size: 15px;
   color: black;
+}
+
+.copy{
+  display: flex;
+  justify-content: space-between;
 }
 
 .ul-containers {

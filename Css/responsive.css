@@ -1,0 +1,28 @@
+@media(max-width:1050px){
+
+
+	.container{
+		max-width:500px ;
+	}
+
+	header .container{
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	header img{
+		height: 150px;
+		width: 150px;
+	}
+
+#start .container{
+	flex-direction: column;
+}
+
+#about-us {
+	flex-direction: column;
+}
+
+
+
+}
