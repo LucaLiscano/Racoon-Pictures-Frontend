@@ -32,6 +32,10 @@ h2 {
   margin: auto;
 }
 
+.nav-button {
+  display: none;
+}
+
 button {
   border: none;
   padding: 10px;
@@ -177,8 +181,8 @@ nav {
 }
 #slider {
   position: relative;
-  width: 900px;
-  height: 600px;
+  width: 600px;
+  height: 500px;
   overflow: hidden;
   margin: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -202,8 +206,8 @@ nav {
 }
 
 #slider ul li img {
-  width: 900px;
-  height: 600px;
+  width: 600px;
+  height: 500px;
 }
 
 #slider #prev,
@@ -234,6 +238,7 @@ nav {
 #slider #next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow: 0;
+  border-radius: 100px;
 }
 
 #artist {
@@ -251,7 +256,7 @@ nav {
   text-align: initial;
 }
 
-#artist .container:first-child {
+.artist-div:first-child {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.6),
@@ -263,7 +268,7 @@ nav {
   background-repeat: no-repeat;
 }
 
-#artist .container:nth-child(2) {
+.artist-div:nth-child(2) {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.6),
@@ -275,7 +280,7 @@ nav {
   background-repeat: no-repeat;
 }
 
-#artist .container:nth-child(3) {
+.artist-div:nth-child(3) {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.8),
@@ -287,7 +292,7 @@ nav {
   background-repeat: no-repeat;
 }
 
-#artist .container:nth-child(4) {
+.artist-div:nth-child(4) {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.6),
@@ -298,8 +303,6 @@ nav {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-
 
 #artist img {
   height: 500px;
@@ -322,7 +325,7 @@ footer p {
   color: black;
 }
 
-.copy{
+.copy {
   display: flex;
   justify-content: space-between;
 }

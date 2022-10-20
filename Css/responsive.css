@@ -1,28 +1,80 @@
-@media(max-width:1050px){
+@media (max-width: 1050px) {
+  h2 {
+    font-size: 30px;
+  }
 
+  p {
+    font-size: 15px;
+  }
 
-	.container{
-		max-width:500px ;
-	}
+  header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-	header .container{
-		flex-direction: column;
-		padding: 20px;
-	}
+  header a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+  }
 
-	header img{
-		height: 150px;
-		width: 150px;
-	}
+  header img {
+    height: 150px;
+    width: 150px;
+  }
+  .container {
+    max-width: 350px;
+    margin: auto;
+  }
 
-#start .container{
-	flex-direction: column;
-}
+  #start .container {
+    flex-direction: column;
+  }
 
-#about-us {
-	flex-direction: column;
-}
+  #about-us .container {
+    text-align: center;
+    justify-content: center;
+  }
 
+  #about-us {
+    padding: 60px;
+  }
 
+  #myArts {
+    padding: 60px;
+  }
 
+  #arts h1 {
+    display: none;
+  }
+
+  #slider {
+    width: 350px;
+    height: 250px;
+  }
+
+  #slider ul li img {
+    width: 350px;
+    height: 250px;
+  }
+
+  #slider #prev,
+  #slider #next {
+    line-height: 50px;
+    font-size: 3rem;
+  }
+
+  #artist img {
+    display: none;
+  }
+
+  #artist button {
+    margin-bottom: 10px;
+  }
+  .ul-containers {
+    flex-direction: column;
+  }
 }
