@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="Css/boleteria.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,36 +28,35 @@
         </div>
         <nav>
             <ul class="nav__ul">
-                    <a href="index.html">Inicio</a>
-                    <a href="Sobre Nosotros.html">Sobre Nosotros</a>
-                    <a href="#">Pinturas</a>
-                    <a href="boleteria.html">Boleteria</a>
+                    <a href="index.html">Volver al inicio</a>
             </ul>
         </div>
     </header>
 
     <section id="about-us">
         <div class="container">
-        <h2>¿Quienes somos?</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
-            doloremque in possimus obcaecati esse non facilis eveniet dignissimos
-            dolorem, rerum quo impedit, soluta maxime libero autem eaque odio
-            reiciendis nulla!
-        </p>
+        <h2>Compra tus boletos</h2>
         </div>
-    </section>
 
-    <section id="pictures">
-        <div class="container"> 
-        <h2>Nuestras artes</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero
-            minima expedita consequatur a illo fuga earum fugit, modi consequuntur
-            dolores accusantium voluptate molestias! Earum aliquid laborum nam eos
-            placeat.
-        </p>
-        </div>
+        <form target="" method="get" name="formDatosPersonales">
+
+            <label for="nombre">Seleccione la fecha</label>
+            <input type="date" name="nombre" id="nombre" class="selección"/>
+        
+            <label for="apellidos">Seleccione la hora</label>
+            <input type="time" name="apellidos" id="apellidos" class="selección"/>
+            
+            <label for="Metodo-de-pago">Seleccione el metodo de pago</label>
+            <select>
+                <option value="value1">Metodo de Pago</option>
+                <option value="value2">Débito</option>
+                <option value="value3">Crédito</option>
+                <option value="value4">Mercado Pago</option>
+            </select>
+        
+            <input type="submit" name="enviar" value="Pagar"/>
+        </form>
+
     </section>
 
     <footer>
