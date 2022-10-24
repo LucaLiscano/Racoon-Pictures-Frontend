@@ -67,6 +67,7 @@ nav {
   padding: 10px;
   margin-bottom: 1.25em;
   display: flex;
+  justify-content: space-around;
 }
 
 #art ul {
@@ -74,8 +75,9 @@ nav {
 }
 
 #art .text {
-  padding: 10px;
   text-align: center;
+  width: 500px;
+  height: 500px;
 }
 
 #art .text p {
