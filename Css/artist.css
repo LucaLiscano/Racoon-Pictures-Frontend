@@ -1,0 +1,138 @@
+/* Estilos Generales */
+* {
+	box-sizing: border-box;
+  }
+
+  body {
+	font-family: "Secular One", sans-serif;
+	margin: 0%;
+	background-color: rgb(12, 10, 10);
+  }
+  
+  h1 {
+	font-size: 25px;
+  }
+  
+  p {
+	font-size: 1.25em;
+  }
+  
+  h2 {
+	font-size: 20px;
+  }
+  
+  .container {
+	max-width: 1400px;
+	margin: auto;
+  }
+  header {
+	background-color: #9E8A72;
+  }
+  
+  header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  header img{
+	height: 80px;
+  }
+  
+  nav a {
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+  }
+  nav a:hover {
+	color: white;
+  }
+  
+  nav {
+	text-align: center;
+  }
+  
+
+
+/* Estilos del Autor */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #C4AC8D; 
+	font-size: 1em;
+	line-height: 1.5em;
+    padding-top: 100px;
+}
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+#main-content {
+    align-items: center;
+	background: #EBCDA9;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.retrato {
+    width: 1544px;
+}
+
+footer {
+	background-color: #9e8a72;
+	padding: 40px 0px 0px;
+  }
+  
+  footer p {
+	margin: 0%;
+	font-size: 15px;
+	color: black;
+  }
+  
+  .copy {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+  }
